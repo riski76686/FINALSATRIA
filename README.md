@@ -1,6 +1,6 @@
 # FINAL SATRIA
 
-> **S**cience • **A**rts • **T**echnology • **R**esearch • **I**nnovation • **A**griculture
+> Science • Arts • Technology • Research • Innovation • Agriculture
 
 <br>
 
