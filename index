@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FINAL SATRIA</title>
+  <!-- Font Awesome untuk ikon pilar SATRIA -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #eef2f7 0%, #dce4ec 100%);
+      padding: 20px;
+    }
+    .card {
+      background: #ffffff;
+      padding: 36px 28px;
+      border-radius: 20px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+      text-align: center;
+      width: 100%;
+      max-width: 480px;
+    }
+    .badge-tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #2563eb;
+      background: #eff6ff;
+      padding: 6px 14px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 1.75rem;
+      color: #0f172a;
+      margin-bottom: 8px;
+      font-weight: 800;
+    }
+    p.desc {
+      font-size: 0.9rem;
+      color: #64748b;
+      margin-bottom: 24px;
+      line-height: 1.4;
+    }
+    /* Grid Ikon SATRIA */
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+    .pillar-item {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 12px 6px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .pillar-item:hover {
+      transform: translateY(-2px);
+      border-color: #cbd5e1;
+    }
+    .pillar-item i {
+      font-size: 1.35rem;
+    }
+    .pillar-item span {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #334155;
+    }
+    /* Warna tematik ikon */
+    .icon-science      { color: #0284c7; }
+    .icon-arts         { color: #db2777; }
+    .icon-tech         { color: #4f46e5; }
+    .icon-research     { color: #7c3aed; }
+    .icon-innovation   { color: #d97706; }
+    .icon-agriculture  { color: #16a34a; }
+
+    /* Tombol Utama */
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 14px 24px;
+      background: #2563eb;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.3);
+      transition: background 0.2s ease, transform 0.1s ease;
+    }
+    .btn:hover {
+      background: #1d4ed8;
+    }
+    .btn:active {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <span class="badge-tag">Portal Aplikasi</span>
+    <h1>FINAL SATRIA</h1>
+    <p class="desc">Aplikasi terintegrasi untuk mendukung pengembangan dan inovasi pembelajaran.</p>
+
+    <div class="pillars-grid">
+      <div class="pillar-item">
+        <i class="fa-solid fa-flask-vial icon-science"></i>
+        <span>Science</span>
+      </div>
+      <div class="pillar-item">
+        <i class="fa-solid fa-palette icon-arts"></i>
+        <span>Arts</span>
+      </div>
+      <div class="pillar-item">
+        <i class="fa-solid fa-microchip icon-tech"></i>
+        <span>Technology</span>
+      </div>
+      <div class="pillar-item">
+        <i class="fa-solid fa-magnifying-glass-chart icon-research"></i>
+        <span>Research</span>
+      </div>
+      <div class="pillar-item">
+        <i class="fa-solid fa-lightbulb icon-innovation"></i>
+        <span>Innovation</span>
+      </div>
+      <div class="pillar-item">
+        <i class="fa-solid fa-seedling icon-agriculture"></i>
+        <span>Agriculture</span>
+      </div>
+    </div>
+
+    <a class="btn" href="https://script.google.com/macros/s/AKfycbxIR3XEzykqYEhhi9LcjYyVjZigqFlGrWzjawkkDGXRZ4LhfSNNwuGDHWbSfWJQjEG2/exec" target="_blank" rel="noopener noreferrer">
+      <span>Buka Aplikasi</span>
+      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
+  </div>
+</body>
+</html>
